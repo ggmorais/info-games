@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> INFO GAMES </title>
+        <style>
+            
+            body {
+                background-image:url(mario1.jpg);
+				background-attachment:fixed;
+				
+            }
+                  
+            @font-face {
+                font-family: 'angrybirds';
+                src: url('angrybirds.ttf');
+            }
+
+            #titulo {
+                margin-top: 50px;
+                font-family: "angrybirds";
+                font-size: 90px;
+                color: #ffffff;
+                text-align:center;
+            }
+            
+            #subtitulo {
+                text-align:center;
+                font-family:cursive;
+                color:#fff;
+            }
+			a {
+				text-align:center;
+                font-family:cursive;
+                color: lightgreen;
+                position: relative;
+				text-decoration:none;
+			}
+
+			a:hover 
+			{
+				 color:white; 
+				 text-decoration:none; 
+				 cursor:pointer;  
+			}
+            
+            #mario {
+                width: 150;                          
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1 id="titulo"> INFO GAMES </h1>
+        <h2 id="subtitulo"> Para deixar você atualizado <br> sobre o mundo dos games!!!</h2>
+        <br>
+        <br>
+        <br>
+        <div id="paginas">
+            
+            <!--------Historia dos games------------>
+            <a href="historia.html"> 
+                <h3> Historia dos games </h3> 
+            </a>
+            
+            <!--------Mais jogados----------------->
+            <a href="momento.html">
+                <h3> Games do mais jogados do momento</h3>
+            </a>
+            
+            <!--------Melhores graficos------------->
+            <a href="graficos.html">
+                <h3> Melhores graficos da atualidade </h3>
+            </a>
+            
+            <!--------Melhores trailers------------>
+            <a href="trailers.html">
+                <h3> Top 5 melhores trailers </h3>
+            </a>
+            
+            <!--------Promoções-------------------->
+            <a href="promocao.html">
+                <h3> Participe das promoções de nosso site! </h3>
+            </a>
+            
+        </div>
+        
+        <marquee direction="right"; scrolldelay="2">
+            <img id="mario" src="mario.gif"> 
+        </marquee>
+        
+        
+    </body>
+</html>
